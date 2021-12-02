@@ -7,7 +7,7 @@ https://harryzhao2000.itch.io/the-path-of-choice  [![Available on itch.io](https
 
 User Manual:
 
-- [shorturl.at/bhquD](shorturl.at/bhquD)
+- [shorturl.at/bhquD](https://shorturl.at/bhquD)
 
 - https://stonly.com/sl/en/35762779-1c8b-41d6-a5d3-3dfa937b3d67/Steps/916277
 
