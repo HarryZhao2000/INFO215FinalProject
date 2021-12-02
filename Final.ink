@@ -6,9 +6,7 @@ In 2058, World War III broke out, and the radiation dust caused by the nuclear w
 
 + [I got it, start!]
     -> Start
-    
-+ [TEST]
-    -> Part4_1
+
   
 VAR accpt=0
 
@@ -244,7 +242,100 @@ The dispute between the two factions was so intense that it was passed from the 
 *"I don't wanna accept this clause right now."
 -"First of all, don't bargain. This clause is so great that no one can refuse its value. Secondly, if you refuse, what will happen to the rest of your life? Various biotechnology companies will make your life worse than death. Looking for a job? It's just a dream."
 
+For three days, you were lost in thought. Representative Valentin's words are not entirely without merit. The biotech company wants to control the personal information of the society at large, so that it can get the entire discourse of technological development and make the moral constraints cease to exist. Of course, he had the opportunity to reject it all, only the price of giving it up was a little too heavy. The entire rest of his life's glory and wealth, 30 million Token coins, he may not be able to earn that much money working day and night for hundreds of years. This agreement, for you is really heavy. Three days quasi-eye to eye, three days you do not think of tea, but still do not know what your choice is. The vote is at 3:00 p.m. The choice is at 9:00 a.m. You have to give a reply to the Valentine representative. You dial the delegate's number.
+
++ ["I'll take you up on your offer, and I'll stop the city council from passing that bill. Remember to honor the agreement between us."]
+    ~accpt+=20
+    "Of course, I'm glad you made the right decision. "
+    ->End1
++ ["Go to hell asshole, the company's ambitions will never be realized!"]
+    ~accpt+=0
+    “Well, we respect your choice, we'll see.”
+    ->End2
+
+
+==End1==
+After this, the city bill was ended as you expected and you moved into the most luxurious apartment in the city center as you wished, enjoying the glory and wealth. The whole house uses the most advanced biotechnology company's products, according to your routine, giving you daily diet advice, exercise advice, etc., after birth seems to be so perfect, but you feel empty, the money on the account is just some meaningless numbers, you completely lost the goal of the struggle, you repeatedly find the biotechnology company to try to undo the decision of the year, but it does not seem to It doesn't seem to work. They have gotten everything they wanted, the government is slowly becoming a puppet, and everything is controlled by the company.
+*OK
+-->Final
+
+==End2==
+You refused the company's offer, the city council's motion was passed, and all biotech companies were sent special investigation teams to investigate the data aspect, and it was found that all biotech companies had violated user data to some extent and used the collected data freely without the authorization of the users. The previous threat to you by Representative Valentin did not happen either, except that you lost the opportunity to spend the rest of your life in glory and fortune in exchange for the safety of the data of the community at large. 
+However, your father has a very serious illness at this time that requires a large sum of money to heal. Your father abandoned you and your mother when you were very young, so you don't have much affection for him, but he is still your father. He calls you to his bedside, hoping you can help him out. You see the hot expectation in his eyes, but when you think of all his previous behavior, you are caught in a moment of hesitation. And you don't have that much money at all. In the hospital, a stranger strikes up a conversation with you:
+
+"Short of money young man? I have a way"
+*"Tell me about it."
+-"Give me your biometric data, your facial features, fingerprints, iris and voice, all together, and I'll give you 200,000 Token coins."
+*"What do you want my biometric data for? "
+-"That's not for you to worry about. I manage to buy, you manage to sell. You don't seem to be in a very good position. Here's my contact information, call me when you've considered it, and if you refuse, there's no point in getting in touch. "
+The stranger passes a contact message to you, turns away and walks toward another man who looks sad and starts the same conversation as the one with you.
+
+You are in deep thought, selling your biometric data is likely to be taken by them for illegal and criminal hookups, and more likely to land you in jail. What if you refuse? Your father will certainly not live long. Although he was once not good to you, but today look at his eyes, you are still in the heart, you are in once in the meditation. Finally, you decide ______
+
++ [accept]
+    ~accpt+=20
+    ->End2_1
++ [reject]
+    ~accpt+=0
+    ->End2_2
+    
+==End2_1==
+Your father was saved, but unsurprisingly, your biological data was taken for criminal activities, and you were arrested and sentenced to ten years in prison.
+*OK
+-->Final
+==End2_2==
+Your father pulled through, and your father's admission was entirely due to a doctor's error in confusing another patient's diagnosis with your father's. You also kept your biometric information safe and did not allow them to be used by the wrong people, preventing you from entering the path of criminality.
+*OK
+-->Final
+
+==Final==
+Let's see how receptive you are to selling biometric information for convenience!
+
+*[Let me know!]
+-Calculating....
+
+*Your result is .....
+-Your result is {accpt}%!
+
+{
+    - accpt >= 50:
+        ->HignAcc
+    - else:
+        ->LowAcc
+}
+
+==LowAcc==
+It seems like you are extremely wary of biometrics, which is a good thing. However, we should have a proper understanding of science and technology, face up to the convenience they can bring us, and use it wisely is the optimal solution. Below I have given you a list of the advantages of some common biometrics technologies.
+High security and assurance - Biometric identification provides the answers to "something a person has and is" and helps verify identity
+User Experience - Convenient and fast
+Non-transferrable - Everyone has access to a unique set of biometrics
+Spoof-proof - Biometrics are hard to fake or steal
+
++ [Got it!]
+    ->ReOrEx
+
+==HignAcc==
+It seems that you are extremely inclusive of biometrics, which is a good thing. However, we should understand science and technology correctly, face their disadvantages and use them wisely is the optimal solution. Below I have given you a list of some common disadvantages of biometric technologies.
+Costs - Significant investment needed in biometrics for security
+Data breaches - Biometric databases can still be hacked
+Tracking and data - Biometric devices like facial recognition systems can limit privacy for users
+Bias - Machine learning and algorithms must be very advanced to minimize biometric demographic bias
+False positives and inaccuracy - False rejects and false accepts can still occur preventing select users from accessing systems
+
++ [Got it!]
+    ->ReOrEx
+
+==ReOrEx==
+Life will still go on. We would like to remind all players through this word game that your biometric data is very precious and priceless, regardless of the occasions, love to be alert to the wrongdoers who try to steal your biometric data, for important biometric data like facial recognition information, fingerprints, iris, etc., focus on the heart, do not be tempted by the momentary interest and make a big mistake.
+
+Do you want to play the game again?
++ [Yes!]
+    Let's go back to the beginning!
+    ->Start
++[No!]
+    Thanks for your time on this game!
+    If you have any questions, let me know! My email is hurryzhao2000@gmail.com!
 
 
 
-->DONE
+->END
