@@ -1,6 +1,6 @@
 # INFO215FinalProject
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=HarryZhao2000)](https://github.com/anuraghazra/github-readme-stats)
 
 This is the final project for INFO215 in Drexel
 
