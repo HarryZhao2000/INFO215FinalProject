@@ -1,12 +1,6 @@
 # INFO215FinalProject
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/aac6695e-a006-4958-a286-fe2be18d332c/deploy-status)](https://app.netlify.com/sites/the-path-of-choice/deploys) [![Available on itch.io](https://img.shields.io/badge/itch.io-available-blue)](https://harryzhao2000.itch.io/the-path-of-choice) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/HarryZhao2000/INFO215FinalProject)
-
-![GitHub](https://img.shields.io/github/license/HarryZhao2000/INFO215FinalProject)
-
-![GitHub watchers](https://img.shields.io/github/watchers/HarryZhao2000/INFO215FinalProject?style=social)
-
-![GitHub last commit](https://img.shields.io/github/last-commit/HarryZhao2000/INFO215FinalProject)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aac6695e-a006-4958-a286-fe2be18d332c/deploy-status)](https://app.netlify.com/sites/the-path-of-choice/deploys) [![Available on itch.io](https://img.shields.io/badge/itch.io-available-blue)](https://harryzhao2000.itch.io/the-path-of-choice) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/HarryZhao2000/INFO215FinalProject) ![GitHub](https://img.shields.io/github/license/HarryZhao2000/INFO215FinalProject) ![GitHub watchers](https://img.shields.io/github/watchers/HarryZhao2000/INFO215FinalProject?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/HarryZhao2000/INFO215FinalProject)
 
 ## Background
 
