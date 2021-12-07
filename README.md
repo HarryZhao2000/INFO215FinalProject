@@ -43,6 +43,8 @@ For this project, you can clone the entire repository locally.
 git clone https://github.com/HarryZhao2000/INFO215FinalProject.git
 ```
 
+Or you can [download the latest release](http://www.github.com/HarryZhao2000/INFO215FinalProject/releases/latest).
+
 ## Usage
 
 For the paper PDF files, use a PDF viewer to open it for viewing. 
